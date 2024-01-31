@@ -1,6 +1,5 @@
-import { hello } from "./index"
+import { hello } from "./index";
 
-test("hello", async ()=> {
-
-    expect(hello()).toBe("Hello World!")
-})
+test("hello", async () => {
+    expect(hello()).toBe("Hello World!");
+});
