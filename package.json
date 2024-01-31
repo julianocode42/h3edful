@@ -5,11 +5,16 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Juliano Soares da Silva",
   "license": "MIT",
   "dependencies": {
+    "jest": "^29.7.0",
     "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "ts-jest": "^29.1.2"
   }
 }
